@@ -1,0 +1,134 @@
+body {
+    font-family: Arial, sans-serif;
+    direction: rtl;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    max-width: 1200px;
+    margin: auto;
+    padding: 20px;
+}
+
+.user-panel {
+    display: flex;
+    width: 100%;
+}
+
+.user-info {
+    width: 25%;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    margin-left: 20px;
+    background-color: #f9f9f9;
+    text-align: right;
+    max-height: 200px;
+    
+}
+
+.user-info h2 {
+    margin-top: 0;
+}
+
+.submit-btn {
+    display: block;
+    width: 100%;
+    padding: 10px 0 10px 0;
+    background-color: #dc3545;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-align: center;
+    text-decoration: none;
+}
+
+.submit-btn:hover {
+    background-color: #c82333;
+}
+
+.main-content {
+    width: 75%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.order-form, .order-list {
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.order-form h2, .order-list h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input, .form-group textarea {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-group textarea {
+    resize: vertical;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+.order-summary{
+    display:flex ;
+    flex-direction: row-reverse;
+}
+.order-list{
+    text-align: center;
+}
+p1{
+    margin-right: 20px;
+    margin-bottom: 20px;
+    background-color: #c82333;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    color: #FFFF;
+}
+p2{
+    margin-bottom: 20px;
+    background-color: #23c86b;
+    padding: 5px 10px 5px 10px;
+    border-radius: 8px;
+    color: #FFFF;
+
+}
